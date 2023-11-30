@@ -355,3 +355,88 @@ section {
 .swiper-pagination-bullet-active {
   background: var(--main-color);
 }
+
+.footer {
+  background: url(../images/footer.png);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .icons-container .icons {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.footer .icons-container .icons i {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: var(--main-color);
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  line-height: 5.8rem;
+  font-size: 2rem;
+}
+
+.footer .icons-container .icons h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+
+.footer .icons-container .icons p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  color: #a6a9ab;
+  text-transform: capitalize;
+}
+
+.footer .icons-container .icons .link {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: var(--main-color);
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.footer .icons-container .icons .link:hover {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+.footer .share {
+  margin: 2rem 0;
+}
+
+.footer .share a {
+  height: 6rem;
+  width: 6rem;
+  line-height: 5.8rem;
+  color: var(--white);
+  background: var(--main-color);
+  margin: 0 0.3rem;
+  font-size: 2.5rem;
+}
+
+.footer .share a:hover {
+  background: var(--hover);
+}
+
+.footer .credit {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  color: var(--black);
+  border-top: var(--main-color);
+}
+
+.footer .credit span {
+  color: var(--main-color);
+}
