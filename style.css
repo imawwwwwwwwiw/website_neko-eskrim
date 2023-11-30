@@ -258,7 +258,6 @@ section {
   line-height: 1.8;
   padding-bottom: 15rem;
 }
-
 .menu {
   background: var(--white);
 }
@@ -275,6 +274,7 @@ section {
 }
 
 .menu .box-container .box .image img {
+  /* object-fit: cover; */
   width: 200pxpx;
   height: 180px;
 }
